@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"> 
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
+<title>Assignment2</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+    
+    <script language="JavaScript" src="javascript.js"></script>   
+    <body>
+        <div id="main_container">
+            <h1 id="h1"></h1>
+            <div id="modifieddate" class="modified"></div><div class="modified">Last Modified Date:</div>
+            <table>
+                <tableRow>
+                    <tableCell1><img id="image1" onmousedown="lighton1(event)" onmouseup="lightoff1()" src="images/GUESS.png"/></tableCell1>
+                    <tableCell2><img id="image2" onmousedown="lighton2(event)" onmouseup="lightoff2()" src="images/GUESS.png"/></tableCell2>
+                    <tableCell3><img id="image3" onmousedown="lighton3(event)" onmouseup="lightoff3()" src="images/GUESS.png"/></tableCell3>
+                    <tableCell4><img id="image4" onmousedown="lighton4(event)" onmouseup="lightoff4()" src="images/GUESS.png"/></tableCell4>
+                </tableRow>
+                <tableRow>
+                    <tableCell5><img id="image16" onmousedown="lighton16(event)" onmouseup="lightoff16()" src="images/GUESS.png"/></tableCell5>
+                    <tableCell6><img id="image14" onmousedown="lighton14(event)" onmouseup="lightoff14()" src="images/GUESS.png"/></tableCell6>
+                    <tableCell7><img id="image5" onmousedown="lighton5(event)" onmouseup="lightoff5()" src="images/GUESS.png"/></tableCell7>
+                    <tableCell8><img id="image9" onmousedown="lighton9(event)" onmouseup="lightoff9()" src="images/GUESS.png"/></tableCell8>
+                </tableRow>             
+                <tableRow>
+                    <tableCell9><img id="image13" onmousedown="lighton13(event)" onmouseup="lightoff13()" src="images/GUESS.png"/></tableCell9>
+                    <tableCell10><img id="image6" onmousedown="lighton6(event)" onmouseup="lightoff6()" src="images/GUESS.png"/></tableCell10>
+                    <tableCell11><img id="image10" onmousedown="lighton10(event)" onmouseup="lightoff10()" src="images/GUESS.png"/></tableCell11>
+                    <tableCell12><img id="image15" onmousedown="lighton15(event)" onmouseup="lightoff15()" src="images/GUESS.png"/></tableCell12>
+                </tableRow>
+                <tableRow>
+                    <tableCell13><img id="image7" onmousedown="lighton7(event)" onmouseup="lightoff7()" src="images/GUESS.png"/></tableCell13>
+                    <tableCell14><img id="image11" onmousedown="lighton11(event)" onmouseup="lightoff11()" src="images/GUESS.png"/></tableCell14>
+                    <tableCell15><img id="image12" onmousedown="lighton12(event)" onmouseup="lightoff12()" src="images/GUESS.png"/></tableCell15>
+                    <tableCell16><img id="image8" onmousedown="lighton8(event)" onmouseup="lightoff8()" src="images/GUESS.png"/></tableCell16>
+                </tableRow> 
+            </table>      
+        </div>
+    </body>
+</html>
